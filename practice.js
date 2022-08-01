@@ -14,6 +14,11 @@ var WeightInKG= 75.6;
 var married= true;
 var haveKids= false;
 
+//Variable name lekhar khetre shurute Number Use kora jabeNA ; like -- var 11Player... but chaile seshe use kora jabe; like- player11
+// Variable name er majhkhane 'Space' ba '-' dash dewa jabe na. kintu Underscore dewa jabe. tobe lowerCase_upperCase mix kore lekha prefferable; like 'studentName' 'MyFathersName'
+
+
+
 // Array [writting a list of items under a variable name]
 var tableItems =['Bottle', 'Marker', 'Pen', 'Diary', 'Mobile Stand']
 
@@ -31,3 +36,9 @@ console.log(tableItems)
 // Unshift = Add item in the Begining
 // Pop = Remove item from the End of the list
 // Shift = Remove item from the begining
+
+// Conditionals
+
+if(tableItems.length >5){console.log('Table is full');}
+else if(tableItems[4]='Pen'){console.log('Pen is available');}
+else{console.log('Table is not full');}
